@@ -1,0 +1,11 @@
+{
+  "frozen_hashes_match": true,
+  "family_splits_disjoint": true,
+  "train_test_prompt_overlap": 0,
+  "legacy_test_unchanged": true,
+  "v1_adapter_preserved": true,
+  "v1_adapter_sha256": "3102505974ab0f15804c94ad383ab5b316db9f5ef72618a440ad6d798abb2fd1",
+  "v2_adapter_sha256": "6159708fcc2642dd11d33e29aa3b52706e52ba1ece9d5eac628423d908bcb772",
+  "reviewed_questions": 125,
+  "v2_truncated_answers": 0
+}

@@ -1,0 +1,33 @@
+.venv/
+.python/
+.tools/
+.bootstrap/
+.uv-cache/
+__pycache__/
+models/
+adapter/
+
+# Model weights/checkpoints anywhere, including archived runs.
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+checkpoint-*/
+*.whl
+*.part
+*.incomplete
+
+# Credentials and machine-specific files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+.DS_Store
+Thumbs.db

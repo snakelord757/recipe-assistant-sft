@@ -1,0 +1,140 @@
+{
+  "fresh": {
+    "n": 80,
+    "v1": 14,
+    "v2": 80,
+    "categories": {
+      "scaling": {
+        "n": 40,
+        "v1": 5,
+        "v2": 40
+      },
+      "substitution": {
+        "n": 30,
+        "v1": 2,
+        "v2": 30
+      },
+      "attention": {
+        "n": 10,
+        "v1": 7,
+        "v2": 10
+      }
+    },
+    "regressions": [],
+    "improvements": [
+      "v2-f0-14-v0-scaling-all2",
+      "v2-f0-14-v0-scaling-all7",
+      "v2-f0-14-v0-scaling-one1",
+      "v2-f0-14-v0-scaling-unit",
+      "v2-f0-14-v0-substitution-open",
+      "v2-f0-14-v0-substitution-specific",
+      "v2-f0-14-v0-substitution-restriction",
+      "v2-f0-15-v0-scaling-all7",
+      "v2-f0-15-v0-scaling-one1",
+      "v2-f0-15-v0-scaling-unit",
+      "v2-f0-15-v0-substitution-open",
+      "v2-f0-15-v0-substitution-specific",
+      "v2-f0-15-v0-substitution-restriction",
+      "v2-f1-14-v0-scaling-all2",
+      "v2-f1-14-v0-scaling-all7",
+      "v2-f1-14-v0-scaling-one1",
+      "v2-f1-14-v0-scaling-unit",
+      "v2-f1-14-v0-substitution-open",
+      "v2-f1-14-v0-substitution-specific",
+      "v2-f1-14-v0-substitution-restriction",
+      "v2-f1-15-v0-scaling-all2",
+      "v2-f1-15-v0-scaling-all7",
+      "v2-f1-15-v0-scaling-one1",
+      "v2-f1-15-v0-scaling-unit",
+      "v2-f1-15-v0-substitution-open",
+      "v2-f1-15-v0-substitution-specific",
+      "v2-f1-15-v0-substitution-restriction",
+      "v2-f2-14-v0-scaling-one1",
+      "v2-f2-14-v0-scaling-unit",
+      "v2-f2-14-v0-substitution-open",
+      "v2-f2-14-v0-substitution-specific",
+      "v2-f2-14-v0-substitution-restriction",
+      "v2-f2-15-v0-scaling-all7",
+      "v2-f2-15-v0-scaling-one1",
+      "v2-f2-15-v0-scaling-unit",
+      "v2-f2-15-v0-substitution-open",
+      "v2-f2-15-v0-substitution-specific",
+      "v2-f2-15-v0-substitution-restriction",
+      "v2-f3-14-v0-scaling-all2",
+      "v2-f3-14-v0-scaling-all7",
+      "v2-f3-14-v0-scaling-one1",
+      "v2-f3-14-v0-scaling-unit",
+      "v2-f3-14-v0-substitution-open",
+      "v2-f3-14-v0-substitution-specific",
+      "v2-f3-15-v0-scaling-all2",
+      "v2-f3-15-v0-scaling-all7",
+      "v2-f3-15-v0-scaling-one1",
+      "v2-f3-15-v0-scaling-unit",
+      "v2-f3-15-v0-substitution-open",
+      "v2-f3-15-v0-substitution-specific",
+      "v2-f3-15-v0-attention-step3",
+      "v2-f4-14-v0-scaling-all2",
+      "v2-f4-14-v0-scaling-one1",
+      "v2-f4-14-v0-scaling-unit",
+      "v2-f4-14-v0-substitution-open",
+      "v2-f4-14-v0-substitution-specific",
+      "v2-f4-14-v0-substitution-restriction",
+      "v2-f4-14-v0-attention-step3",
+      "v2-f4-15-v0-scaling-all2",
+      "v2-f4-15-v0-scaling-all7",
+      "v2-f4-15-v0-scaling-one1",
+      "v2-f4-15-v0-scaling-unit",
+      "v2-f4-15-v0-substitution-open",
+      "v2-f4-15-v0-substitution-specific",
+      "v2-f4-15-v0-substitution-restriction",
+      "v2-f4-15-v0-attention-step3"
+    ]
+  },
+  "legacy": {
+    "n": 45,
+    "v1": 24,
+    "v2": 38,
+    "categories": {
+      "attention": {
+        "n": 19,
+        "v1": 14,
+        "v2": 17
+      },
+      "scaling": {
+        "n": 10,
+        "v1": 1,
+        "v2": 9
+      },
+      "substitution": {
+        "n": 8,
+        "v1": 1,
+        "v2": 4
+      },
+      "refusal": {
+        "n": 8,
+        "v1": 8,
+        "v2": 8
+      }
+    },
+    "regressions": [
+      "test-27-ingredients"
+    ],
+    "improvements": [
+      "test-26-scaling",
+      "test-27-scaling",
+      "test-27-substitution",
+      "test-28-scaling",
+      "test-30-steps",
+      "test-30-scaling",
+      "test-30-substitution",
+      "test-31-steps",
+      "test-31-scaling",
+      "test-31-substitution",
+      "test-32-scaling",
+      "test-33-scaling",
+      "test-edge-0",
+      "test-edge-3",
+      "test-edge-4"
+    ]
+  }
+}

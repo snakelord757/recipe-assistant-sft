@@ -1,0 +1,45 @@
+{
+  "by_task": {
+    "attention": {
+      "n": 19,
+      "before": 11,
+      "after": 14
+    },
+    "scaling": {
+      "n": 10,
+      "before": 0,
+      "after": 1
+    },
+    "substitution": {
+      "n": 8,
+      "before": 0,
+      "after": 1
+    },
+    "refusal": {
+      "n": 8,
+      "before": 0,
+      "after": 8
+    }
+  },
+  "total": {
+    "before": 11,
+    "after": 24
+  },
+  "n": 45,
+  "improvements": [
+    "test-26-steps",
+    "test-26-substitution",
+    "test-26-refusal",
+    "test-27-steps",
+    "test-27-refusal",
+    "test-28-refusal",
+    "test-29-scaling",
+    "test-29-refusal",
+    "test-30-refusal",
+    "test-31-refusal",
+    "test-32-steps",
+    "test-32-refusal",
+    "test-33-refusal"
+  ],
+  "regressions": []
+}

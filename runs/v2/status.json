@@ -1,0 +1,7 @@
+{
+  "stage": "COMPLETE: training, tests, review and report",
+  "fresh": "V1 14/80 -> V2 80/80",
+  "legacy": "V1 24/45 -> V2 38/45",
+  "report": "runs/v2/report.md",
+  "comparisons": "runs/v2/comparisons.html"
+}

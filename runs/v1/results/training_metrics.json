@@ -1,0 +1,19 @@
+{
+  "elapsed_s": 500.4307755,
+  "power_samples": 460,
+  "mean_gpu_w": 88.14423913043478,
+  "gpu_energy_wh_estimate": 12.252802762194701,
+  "method": "mean 1s nvidia-smi board power samples times elapsed; includes idle/display; excludes rest of PC",
+  "epochs": 8,
+  "optimizer_steps": 200,
+  "seed": 42,
+  "learning_rate": 0.0002,
+  "batch_size": 4,
+  "gradient_accumulation": 4,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "train_examples": 400,
+  "validation_examples": 25,
+  "loss": "assistant-only causal cross-entropy; epoch means weighted by answer tokens",
+  "selection": "minimum validation loss, no test-based selection"
+}

@@ -1,0 +1,16 @@
+{
+  "initialization": "fresh Qwen3-0.6B, not V1 adapter",
+  "epochs": 3,
+  "learning_rate": 8e-05,
+  "rank": 16,
+  "batch_size": 2,
+  "accumulation": 8,
+  "seed": 42,
+  "patience": 2,
+  "test_selection": "none; minimum validation loss",
+  "old_test_role": "regression: already inspected during V1",
+  "fresh_test_role": "held out by recipe family, frozen before this run",
+  "prompt": "unchanged from V1",
+  "generation": "unchanged from V1: greedy, no thinking, max_new_tokens=160",
+  "train_sha256": "70c7beb9600e8001d27acf16435b58404ead6ee1a44ec204fdd501f537b4c8ef"
+}

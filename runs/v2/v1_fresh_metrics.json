@@ -1,0 +1,17 @@
+{
+  "elapsed_s": 159.7534829999995,
+  "power_samples": 145,
+  "mean_gpu_w": 45.932,
+  "gpu_energy_wh_estimate": 2.038276939209994,
+  "method": "mean 1s nvidia-smi board power samples times elapsed; includes idle/display; excludes rest of PC",
+  "model": "Qwen/Qwen3-0.6B",
+  "adapter": true,
+  "n": 80,
+  "mean_latency_s": 1.9934297812500064,
+  "median_latency_s": 1.8223364999998921,
+  "p95_latency_s": 3.2992576999995435,
+  "tokens_per_s": 16.874183538537867,
+  "peak_allocated_gb": 1.30221312,
+  "decoding": "greedy, no thinking, max_new_tokens=160, batch_size=1",
+  "timing": "GPU synchronized generation only; excludes tokenization, model load and warmup"
+}

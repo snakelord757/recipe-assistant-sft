@@ -1,0 +1,45 @@
+{
+  "train": {
+    "examples": 4360,
+    "categories": {
+      "scaling": 2080,
+      "substitution": 1180,
+      "attention": 820,
+      "refusal": 280
+    },
+    "families": 80,
+    "recipes": 200,
+    "sha256": "70c7beb9600e8001d27acf16435b58404ead6ee1a44ec204fdd501f537b4c8ef"
+  },
+  "validation": {
+    "examples": 245,
+    "categories": {
+      "scaling": 115,
+      "substitution": 65,
+      "attention": 40,
+      "refusal": 15,
+      "steps": 5,
+      "ingredients": 5
+    },
+    "families": 15,
+    "recipes": 15,
+    "sha256": "eb6161c175888f4d0e021839161ec230cfdc5241936e69f7452c11f344784cd7"
+  },
+  "fresh_test": {
+    "examples": 80,
+    "categories": {
+      "scaling": 40,
+      "substitution": 30,
+      "attention": 10
+    },
+    "families": 10,
+    "recipes": 10,
+    "sha256": "9b7802201f5d64ad94635e60d868d760af36e78e56eca58240aac2ff728c47e6"
+  },
+  "notes": [
+    "Synthetic assistant-authored families; portions/quantities vary inside each family.",
+    "Splitting is by family, not randomized question rows.",
+    "Legacy test is a regression test already inspected; fresh_test is newly frozen.",
+    "No teacher API; arithmetic calculated with Decimal, rounded to 0.0001."
+  ]
+}
